@@ -1,0 +1,19 @@
+{
+  "name": "meta-leads-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express + Socket.IO backend that receives Meta Lead Ads webhooks and pushes leads to the mobile app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
